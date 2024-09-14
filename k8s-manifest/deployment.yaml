@@ -21,7 +21,7 @@ spec:
               - key: app
                 operator: In
                 values:
-                - my-app
+                - pod-info
             topologyKey: "kubernetes.io/hostname"
       containers:
       - name: pod-info

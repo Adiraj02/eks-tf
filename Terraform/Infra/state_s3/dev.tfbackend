@@ -1,0 +1,5 @@
+bucket         = "aditya-tf-backend-usw2-dev"
+key            = "terraform.tfstate"
+encrypt        = true
+region         = "us-west-2"
+dynamodb_table = "aditya-tf-lock-usw2-dev"
